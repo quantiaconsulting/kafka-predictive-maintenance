@@ -1,0 +1,1 @@
+# kafka-predictive-maintainance
