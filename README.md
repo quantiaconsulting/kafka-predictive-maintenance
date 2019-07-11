@@ -10,7 +10,7 @@ The `kafka-spark-notebooks` folder contains 4 different notebooks:
 ## pm-spark-notebooks
 The `pm-spark-notebooks` folder contains 3 different notebooks:
 
-* `Notebook_1_DataCleansing_FeatureEngineering.ipynb` (python): data exploration, data cleansing and feature engineering* `Notebook_2_FeatureEngineering_RollingCompute.ipynb` (python): computation of rolling features on different time periods* `Notebook_3_Labeling_FeatureSelection_Modeling.ipynb` (python): machine learning operations## schemas
+* `Notebook_1_DataCleansing_FeatureEngineering.ipynb` (python): data exploration, data cleansing and feature engineering* `Notebook_2_FeatureEngineering_RollingCompute.ipynb` (python): computation of rolling features on different time periods* `Notebook_3_Labeling_FeatureSelection_Modeling.ipynb` (python): machine learning operationsThe data used in the notebooks can be found [here](https://pysparksampledata.blob.core.windows.net/sampledata/sampledata.csv)## schemas
 The folder contains the avro schema for the warnings and errors messages.
 
 ## scripts
