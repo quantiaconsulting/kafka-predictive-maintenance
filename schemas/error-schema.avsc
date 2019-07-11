@@ -2,32 +2,23 @@
     "name": "error",
     "type": "record",
     "doc": "schema for error data",
-    "namespace": "quantia.kafka-predictive-maintenance",
+    "namespace": "quantia.kpm",
     "fields": [
         {
-            "name": "DeviceID",
-            "doc": "unique ID of the machine",
-            "type": [
-                "string",
-                "null"
-            ]
+            "name": "deviceID",
+            "type": "string"
         },
         {
             "name": "timestamp",
-            "doc": "timestamp of the error",
-            "type": [
-                "timestamp-millis",
-                "null"
-            ]
+            "type": "string"
         },
         {
             "name": "error",
-            "type": ["null", {
+            "type": {
                     "type": "enum",
                     "name": "errorsEnum",
                     "symbols": ["e1", "e2", "e3", "e4"]
                 }
-            ]
         }
     ]
 }

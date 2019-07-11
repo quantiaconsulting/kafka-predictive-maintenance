@@ -2,14 +2,11 @@
     "name": "key",
     "type": "record",
     "doc": "schema for error data",
-    "namespace": "quantia.kafka-predictive-maintenance",
+    "namespace": "quantia.kpm",
     "fields": [
         {
-            "name": "DeviceID",
-            "doc": "unique ID of the machine",
-            "type": [
-                "string"
-            ]
+            "name": "deviceID",
+            "type": "string"
         }
     ]
 }

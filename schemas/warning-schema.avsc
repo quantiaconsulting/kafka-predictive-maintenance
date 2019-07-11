@@ -2,32 +2,23 @@
     "name": "warning",
     "type": "record",
     "doc": "schema for warning data",
-    "namespace": "quantia.kafka-predictive-maintenance",
+    "namespace": "quantia.kpm",
     "fields": [
         {
-            "name": "DeviceID",
-            "doc": "unique ID of the machine",
-            "type": [
-                "string",
-                "null"
-            ]
+            "name": "deviceID",
+            "type": "string"
         },
         {
             "name": "timestamp",
-            "doc": "timestamp of the record",
-            "type": [
-                "timestamp-millis",
-                "null"
-            ]
+            "type": "string"
         },
         {
             "name": "warning",
-            "type": ["null", {
+            "type": {
                     "type": "enum",
                     "name": "warningsEnum",
                     "symbols": ["w1", "w2", "w3", "w4"]
                 }
-            ]
         }
     ]
 }
